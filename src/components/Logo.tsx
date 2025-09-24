@@ -2,7 +2,11 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-const Logo = ({ className }: { className?: string }) => {
+interface LogoPropsType {
+  className?: string;
+  spanDesign?: string;
+}
+const Logo = ({ className ,spanDesign} : LogoPropsType) => {
   return (
     <Link href={"/"}>
       <h2
@@ -12,7 +16,11 @@ const Logo = ({ className }: { className?: string }) => {
         )}
       >
         shopcar
-        <span className=" group-hover:text-shop_dark_green text-shop_light_green hoverEffect ">
+        <span
+          className={cn(
+            "group-hover:text-shop_dark_green text-shop_light_green hoverEffect", spanDesign
+          )}
+        >
           t
         </span>
       </h2>

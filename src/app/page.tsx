@@ -4,7 +4,7 @@ import Container from "@/components/Container";
 const Home = () => {
   return (
     
-    <Container className=" bg-shop-light_pink">
+    <Container className="bg-shop-light_pink">
       <h2 className="text-xl font-semibold">Home</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi
