@@ -1,6 +1,6 @@
-import { Heart} from 'lucide-react'
-import React from 'react'   
-import Link from 'next/link';
+import { Heart } from "lucide-react";
+import React from "react";
+import Link from "next/link";
 
 const FavouriteButton = () => {
   return (
@@ -11,6 +11,6 @@ const FavouriteButton = () => {
       </span>
     </Link>
   );
-}
+};
 
-export default FavouriteButton
+export default FavouriteButton;
