@@ -14,7 +14,7 @@ const Navbar = async () => {
   const user = await currentUser();
   // console.log("user: ", user);
   return (
-    <header className="bg-white py-5  ">
+    <header className="bg-white/70 py-5 sticky top-0 z-50 backdrop-blur-md ">
       <Container className="flex justify-between items-center text-lightColor">
         <div className="  w-auto md:w-1/3 flex item center justify-start gap-2.5 md:gap-0">
           <MobileMenu />
