@@ -5,7 +5,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import Link from "next/link";
 import { Calendar } from "lucide-react";
-import dayjs from "dayjs";
+import dayjs from "dayjs"
 
 const LatestBlog = async () => {
   const blogs = await getLatestBlogs();

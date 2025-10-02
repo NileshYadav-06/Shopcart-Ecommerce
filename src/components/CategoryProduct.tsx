@@ -1,5 +1,5 @@
 "use client";
-import { Category, Product } from "@/sanity.types";
+import { Category, Product } from "../../sanity.types";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
@@ -32,6 +32,7 @@ const CategoryProducts = ({ categories, slug }: Props) => {
         ...,"categories": categories[]->title}
       `;
       const data = await client.fetch(query, { categorySlug });
+      
       setProducts(data);
     } catch (error) {
       console.error("Error fetching products:", error);
