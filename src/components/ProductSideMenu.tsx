@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { Product } from "@/sanity.types";
-import useStore from "@/store";
+import { Product } from "../../sanity.types";
+import useStore from "../../store";
 import { Heart } from "lucide-react";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";

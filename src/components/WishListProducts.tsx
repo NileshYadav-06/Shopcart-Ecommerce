@@ -1,6 +1,6 @@
 "use client";
 
-import useStore from "@/store";
+import useStore from "../../store";
 import { useState } from "react";
 import Container from "./Container";
 import { Heart, X } from "lucide-react";
