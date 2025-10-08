@@ -25,17 +25,17 @@ const SocialLink = [
   },
   {
     title: "Github",
-    href: "https://www.youtube.com/@Nileshyadav_06",
+    href: "https://github.com/NileshYadav-06",
     icon: <Github className="w-5 h-5" />,
   },
   {
     title: "Linkedin",
-    href: "https://www.youtube.com/@Nileshyadav_06",
+    href: "https://www.linkedin.com/in/nilesh-yadav-0691a52b1/",
     icon: <Linkedin className="w-5 h-5" />,
   },
   {
     title: "Instagram",
-    href: "https://www.youtube.com/@Nileshyadav_06",
+    href: "https://www.instagram.com/nileshyadav_06?igsh=MWU5Nmcxdno1a3psaA==",
     icon: <Instagram className="w-5 h-5" />,
   },
   {
@@ -45,7 +45,7 @@ const SocialLink = [
   },
   {
     title: "Slack",
-    href: "https://www.youtube.com/@Nileshyadav_06",
+    href: "https://slack.com/intl/en-in/",
     icon: <Slack className="w-5 h-5" />,
   },
 ];

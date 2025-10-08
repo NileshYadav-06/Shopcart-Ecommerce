@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
         <div className="py-6 border-t text-center text-sm text-gray-600">
           <div>
-            © {new Date().getFullYear()} <Logo className="text-sm" />. All rights reserved
+            © {new Date().getFullYear()} <Logo className="text-sm hoverEffect" />. All rights reserved made with ❤️ by <span className=" hover:text-darkColor/90 font-black hoverEffect" >Nilesh Yadav </span>
           </div>
         </div>
       </Container>

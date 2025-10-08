@@ -53,6 +53,7 @@ const CartPage = () => {
     try {
       const query = `*[_type=="address"] | order(publishedAt desc)`;
       const data = await client.fetch(query);
+    //   console.log(data);npm
       setAddresses(data);
       const defaultAddress = data.find((addr: Address) => addr.default);
       if (defaultAddress) {
@@ -227,6 +228,7 @@ const CartPage = () => {
                         <div className="flex items-center justify-between font-semibold text-lg">
                           <span>Total</span>
                           <PriceFormatter
+                            // amount={useStore?.getState().getTotalPrice()}  // we can use this as well as below
                             amount={getTotalPrice()}
                             className="text-lg font-bold text-black"
                           />
