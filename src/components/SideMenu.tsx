@@ -22,8 +22,8 @@ const SideMenu: FC<SideBarProps> = ({ isOpen, onClose }) => {
         isOpen ? "translate-x-0" : "-translate-x-full"
       } hoverEffect`}
     >
-      <div className=" border border-red-300 min-w-96 max-w-96 bg-black h-screen p-10 ">
-        <div className=" border border-red-300 flex items-center justify-between gap-6">
+      <div className="   min-w-96 max-w-96 bg-black h-screen p-10 ">
+        <div className="   flex items-center justify-between gap-6">
           <Logo className="text-white" spanDesign="group-hover:text-white" />
           <button
             onClick={onClose}
